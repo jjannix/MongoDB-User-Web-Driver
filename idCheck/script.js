@@ -22,10 +22,11 @@ rl.question('Enter a username: ', (username) => {
         let idExists;
         let attempts = 0;
         const maxAttempts = 10000;
+        const idLenght = 4;
 
         do {
 
-            randomId = generateRandomId(8);
+            randomId = generateRandomId(idLenght);
 
 
             idExists = checkIdInDB(randomId, jsonData);

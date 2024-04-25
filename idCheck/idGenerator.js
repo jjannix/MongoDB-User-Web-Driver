@@ -1,5 +1,5 @@
 function generateRandomId(idLength) {
-    const letterCharacters = 'ABCDE';
+    const letterCharacters = 'ABC';
     const numberCharacters = '0123456789';
     let id = '';
 
