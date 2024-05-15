@@ -2,8 +2,8 @@ const QRCode = require('qrcode');
 
 QRCode.toFile('./qrcode.png', 'Hello World!', {
     color: {
-        dark: '#0C0D39',
-        light: '#E4E5FF'
+        dark: '#070731',
+        light: '#BFDBE8'
     },
     margin: 1,
     width: 500,
